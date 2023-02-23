@@ -71,3 +71,123 @@ section h2 {
   font-size: 1.1rem;
   line-height: 1.5;
 }
+
+#chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#chat-header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px;
+}
+
+#chat-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#chat-body {
+  padding: 10px;
+}
+
+/* Button styles */
+
+button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #1a237e;
+}
+
+/* Link styles */
+
+a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Image styles */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Additional styles for specific elements */
+
+#chat-container {
+  max-height: 400px;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+
+#chat-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+#chat-container::-webkit-scrollbar-thumb {
+  background-color: #3f51b5;
+  border-radius: 4px;
+}
+
+#chat-container::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.icon-btn {
+  border-radius: 30%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.icon-btnn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+#chatbot-container {
+  display: none;
+}
