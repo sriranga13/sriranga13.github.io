@@ -53,8 +53,8 @@ function showCoolStuff() {
 function showResume() {
 	chatContainer.innerHTML = `
 		<h2>Resume</h2>
-		<p>View or download my resume:</p>
-		<a href="resume.pdf" download>Download</a>
+		<p>Download my resume:</p>
+		<a href="resume.pdf" download><button>Sri's Resume</button></a>
 		<br>
 		<button id="main-menu-btn">Main Menu</button>
 	`;
