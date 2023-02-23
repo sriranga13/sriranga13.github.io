@@ -4,7 +4,7 @@ const chatContainer = document.getElementById('chat-container');
 // Show welcome message and options
 function showOptions() {
 	chatContainer.innerHTML = `
-		<h2>Welcome to Chat Bot!</h2>
+		<h2>Welcome to my Chat Bot!</h2>
 		<p>Please select an option:</p>
 		<button id="contact-btn">Contact Info</button>
 		<button id="cool-stuff-btn">Cool Stuff</button>
