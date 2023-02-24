@@ -25,7 +25,8 @@ function showContactInfo() {
 		<a href="https://github.com/sriranga13/" target="_blank" class="icon-btn"><img src="github.jpg" alt="Github icon"></a>
 		<a href="https://www.linkedin.com/in/sri-gorantla-a9121b204/" target="_blank" class="icon-btn"><img src="linkedin.jpg" alt="LinkedIn icon"></a>
 		<a href="mailto:gorantlasriranga@gmail.com"> <button>Send an Email</button></a> 
-		<details class="phonenumber"><summary>Phone</summary><p>330-671-1989</p></details>
+		<details class="phonenumber"><summary><img src="phone.png" width="20" height="20"></summary><p>330-671-1989</p></details>
+		<br>
 		<br>
 		<button id="main-menu-btn">Main Menu</button>
 	`;
