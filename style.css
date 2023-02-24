@@ -192,23 +192,34 @@ p {
   display: none;
 }
 /* Hide the default arrow */
-details summary::-webkit-details-marker {
+.chatbot1 summary::-webkit-details-marker {
   display: none !important;
 }
 
 /* Replace it with an image */
-details summary::before {
+.chatbot1 summary::before {
   content: "";
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   background-image: url('chatbot.jpg');
   background-size: contain;
   margin-right: 10px;
-}
-#chatbot1{
   position: fixed;
   bottom: 20px;
   right: 20px;
- }
+ 
+}
+
+.phonenumber summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Replace it with an image */
+.phonenumber summary::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: none;
+}
 
