@@ -8,14 +8,17 @@
   <link rel="stylesheet" href="style.css">
   <style>
       .header {
-        background-color: powderblue;
+        background-image: url(ai.jpg);
         text-align: center;
         padding: 20px;
+		color: white;
       }
 
-      .header img {
-        width: 200px;
+      .iimage {
+        width: 150px;
+		height: 130px;
         border-radius: 70%;
+		float : left;
         display: inline-block;
         vertical-align: middle;
         margin-right: 20px;
@@ -24,7 +27,7 @@
       .header h1 {
         display: inline-block;
         vertical-align: middle;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
       }
 
@@ -56,20 +59,29 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-      </ul>
+		<div class=iimage>
+			<img src="IMG_1745.jpg" alt="Your Profile Picture">
+		  </div>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+	  	<li><a href="#contact">CONTACT INFO</a></li>
+		<li><a href="resume.pdf">RESUME</a></li>
+	 </ul>
     </nav>
   </header>
    
 
   <main>
-    <section id="about">
-	  <div class="header">
-		  <img src="IMG_1745.jpg" alt="Your Profile Picture">
-		  <h1>Sri Gorantla</h1>
+  
+		<div class="header">
+			
+			<div class="right">
+			  <br><br>
+			  <h2>Hi, I'm <h1 style="background-color:#777; font-size: 30px;color: black;" >Sri Gorantla.</h1></h2>
+			  <h2>I'm a Software Engineer with a passion for utilizing technology to solve complex problems. I'm Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving and challenging real-world problems.</h2>
+			  <br><br><br><div class="button-container">
 				<a href="https://www.linkedin.com/in/sri-gorantla-a9121b204/" target="_blank">
 				  <button class="icon-btn linkedin">
 					<img src="linkedin.jpg" alt="LinkedIn">
@@ -79,89 +91,111 @@
 				  <button class="icon-btn github">
 					<img src="github.jpg" alt="Github">
 				  </button>
-				</a>
-	      <h2>About</h2>
-      <p>Hi, I'm Sri Gorantla, a software engineer with a passion for utilizing technology to solve complex problems. I have a Masters degree in Computer Science from the University of Akron and a Bachelor of Technology in Computer Science and Engineering from Acharya Nagarjuna University. I am currently working as a software engineer at Q9Software.</p>
-    </div>
-    </section>
+				</a> 
+				<br><br>
+				<a href="#about"><button>Read More</button></a>
+				<a href="#contact"><button>Contact Me</button></a> 
+			  </div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>		  
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		  </div>
+
+    
+   
+	<section id="about">
+			<h2>ABOUT</h2>
+		<p>I have a Master's degree in Computer Science and I'm experienced in Software Engineering, Development and Operations. I'm skilled in Python, Azure, Jenkins, Snowflake, Java, and more, having worked on diverse projects such as facial expression recognition, multi-person key point detection, and real estate data exploration. I'm proud of my ability to deploy applications into CD/CI and maintain continuous integration and continuous delivery processes using tools like Jenkins, Maven, and Git. Additionally, I have experience in game development, web development, and data warehousing/ETL, showing my versatility. I'm passionate about technology and hold certifications in Data Science, Machine Learning, and Certified Ethical Hacker. Overall, I'm a well-rounded professional with a drive to succeed.</p>
+		<p>Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.</h1>
+	</div>
+	  </section>
 
     <section id="education">
-      <h2>Education</h2>
-      <h3>University of Akron</h3>
-      <p>Master of Computer Science, May 2022</p>
-      <p>GPA: 3.4</p>
-      <p>Relevant coursework: Algorithms, Data Structures, Machine Learning</p>
-      <p>Projects:</p>
-      <ul>
+      <h2>EDUCATION</h2>
+      <h3 style="font-size: 25px;">University of Akron</h3>
+      <p style="font-style: italic;color: #777;font-weight: bold;">Master of Computer Science, May 2022</p>
+      <p style="font-size: 20px;">GPA: 3.4</p>
+      <p style="font-size: 20px;">Relevant coursework: Algorithms, Data Structures, Machine Learning</p>
+      <p style="font-size: 20px;">Projects:</p>
+      <ul style="font-size: 20px;">
         <li>Data Science Project: Facial Expression Recognition using Machine Learning</li>
         <li>Research Project: Multi person key point detection using Machine Learning</li>
         <li>Data Integration Project: Real Estate Data Exploration using python libraries</li>
       </ul>
 
-      <h3>Acharya Nagarjuna University, Bapatla Engineering College</h3>
-      <p>Bachelor of Technology in Computer Science and Engineering, Sep 2020</p>
+      <h3 style="font-size: 25px;">Acharya Nagarjuna University, Bapatla Engineering College</h3>
+      <p  style="font-size: 25px;font-style: italic;color: #777;font-weight: bold;">Bachelor of Technology in Computer Science and Engineering, June 2020</p>
       <p>Graduated with distinction</p>
     </section>
 
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <h3>Programming Languages:</h3>
-	<ul>
+    <section id="skills"><h2>TECHNICAL SKILLS</h2>
+	<h3 style="font-size: 25px;">Programming Languages:</h3>
+	<ul style="font-size: 20px;">
 		<li>Python</li>
 		<li>Java</li>
 		<li>Java Script</li>
 		<li>C#</li>
 	</ul>
 
-	<h3>Web Development:</h3>
-	<ul>
+	<h3 style="font-size: 25px;">Web Development:</h3>
+	<ul style="font-size: 20px;">
 		<li>Node.js</li>
 		<li>React</li>
 		
 	</ul>
 
-	<h3>DevOps:</h3>
-	<ul>
+	<h3 style="font-size: 25px;">DevOps:</h3>
+	<ul style="font-size: 20px;">
 		<li>DevOps</li>
 		<li>Jenkins</li>
 		<li>Ansible</li>
 		<li>Docker</li>
 		<li>Kubernetes</li>
 		<li>CI/CD pipelines</li>
+		<li>Git</li>
 	</ul>
 
-	<h3>Cloud Computing:</h3>
-	<ul>
+	<h3 style="font-size: 25px;">Cloud Computing:</h3>
+	<ul style="font-size: 20px;">
 		<li>Azure</li>
 		<li>AWS</li>
 	</ul>
 
-	<h3>Data Management:</h3>
-	<ul>
+	<h3 style="font-size: 25px;">Data Management:</h3>
+	<ul style="font-size: 20px;">
 		<li>SQL</li>
 		<li>MongoDB</li>
 		<li>Snowflake</li>
 		<li>Apache Maven</li>
 	</ul>
 
-	<h3>Machine Learning:</h3>
-	<ul>
+	<h3 style="font-size: 25px;">Machine Learning:</h3>
+	<ul style="font-size: 20px;">
 		<li>Scikit-learn</li>
 		<li>Numpy</li>
 		<li>Pandas</li>
 		<li>Tensorflow</li>
-		<li>Machine Learning</li>
+		<li>openCV</li>
 	</ul>
 
-	<h3>Game Development:</h3>
-	<ul>
+	<h3 style="font-size: 25px;">Game Development:</h3>
+	<ul style="font-size: 20px;">
 		<li>Unity</li>
 		<li>Unreal Engine</li>
 	</ul>
     </section>
 
 	<section id="experience">
-	  <h2 class="section-title">Professional Experience</h2>
+	  <h2>PROFESSIONAL EXPERIENCE</h2>
 	  <div class="experience-item">
 		<h3 class="experience-item-title">Software Engineer - Devops</h3>
 		<h4 class="experience-item-location">Q9Sofware, Germantown, MD</h4>
@@ -195,6 +229,42 @@
 		</p>
 	  </div>
 	</section>
+	<section id="contact">
+		<h2>CONTACT INFO</h2>
+		<p>
+		<a href="https://www.linkedin.com/in/sri-gorantla-a9121b204/" target="_blank">
+		  <button class="icon-btn linkedin">
+		    <img src="linkedin.jpg" alt="LinkedIn">
+			
+		  </button><a>https://www.linkedin.com/in/sri-gorantla-a9121b204/</a>
+		</a>
+		</p>
+		<p>
+		<a href="https://github.com/sriranga13/" target="_blank">
+		  <button class="icon-btn github">
+			<img src="github.jpg" alt="Github">
+		  </button><a>https://github.com/sriranga13/</a>
+
+		</a>
+		</p>
+		<p>
+			<a href="mailto:gorantlasriranga@gmail.com" target="_blank">
+			  <button class="icon-btn email">
+				<img src="email.jpg" alt="Email">
+			  </button><a href="mailto:gorantlasriranga@gmail.com">gorantlasriranga@gmail.com</a>
+	
+			</a>
+		</p>
+		<p>
+			<a target="_blank">
+			  <button class="icon-btn Phone">
+				<img src="phone.png" alt="Phone">
+			  </button><h5>330-671-1989</h5>
+	
+			</a>
+		</p>
+	</section>
+	
 	<details class="chatbot1"><summary></summary>
 	<div id="chatbot">
 	  <div id="chat-header">
@@ -205,5 +275,8 @@
 	<div id="chat-container"></div>
     	<script src="script.js"></script>
 	</details>
+</main>
+
+	
 	  
 </body>

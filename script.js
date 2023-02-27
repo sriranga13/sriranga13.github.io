@@ -4,7 +4,7 @@ const chatContainer = document.getElementById('chat-container');
 // Show welcome message and options
 function showOptions() {
 	chatContainer.innerHTML = `
-		<h2>Welcome to my Chat Bot!</h2>
+		<h2>How can I assist you today?</h2>
 		<p>Please select an option:</p>
 		<button id="contact-btn">Contact Info</button>
 		<button id="cool-stuff-btn">Cool Stuff</button>
@@ -38,12 +38,14 @@ function showContactInfo() {
 // Show cool stuff
 function showCoolStuff() {
 	chatContainer.innerHTML = `
-		<h2>Cool Stuff</h2>
-		<p>Check out these cool websites:</p>
-		<a href="https://sriranga13.github.io/My-3D-Robot/" target="_blank" class="icon-btnn"><img src="robot.png" alt="Cool website 1"></a>
-		<a href="https://sriranga13.github.io/wordify/" target="_blank" class="icon-btnn"><img src="wordify.png" alt="Cool website 2"></a>
+		<h2>Cool Stuff<button id="main-menu-btn">Main Menu</button></h2>
+		<p>My lil creations:</p>
+		<a href="https://sriranga13.github.io/My-3D-Robot/" target="_blank" class="icon-btnn"><img src="robot.png" alt="Cool website 1"></a><p>An interactive robot</p>
+		<a href="https://sriranga13.github.io/wordify/" target="_blank" class="icon-btnn"><img src="wordify.png" alt="Cool website 2"></a><p>A cool 3D game</p>
 		<br>
 		<button id="main-menu-btn">Main Menu</button>
+		<br>
+		<br>
 	`;
 
 	// Add event listener for "Main Menu" button

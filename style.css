@@ -1,17 +1,42 @@
-header {
+
+body {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row; /* display child elements in a row */
+  margin: 0;
+  
+  justify-content: flex-end; /* align child elements to the right */
+  background-color: black;
+  color: white;
+}
+p {
+  font-size: 20px !important;
+  line-height: 1.5 !important;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 1rem;
   background-color: #333;
   color: #fff;
 }
 
+
 header nav ul {
   display: flex;
+  flex-direction: column; /* display menu items one under the other */
   list-style: none;
   margin: 0;
   padding: 0;
+  
 }
 
 header nav a {
@@ -25,14 +50,16 @@ header nav a:hover {
   background-color: #fff;
   color: #333;
 }
-
 main {
   padding: 2rem;
+  margin-left: 20%;
 }
 
 section h2 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 2rem;
+  background-color: green;
+  font-size: 40px;
 }
 
 .section-title {
@@ -44,46 +71,49 @@ section h2 {
 }
 
 .experience-item {
-  margin-bottom: 2rem;
+  margin-bottom: 25px;
 }
 
 .experience-item-title {
-  font-size: 1.2rem;
+  font-size:25px ;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .experience-item-location {
-  font-size: 1.1rem;
+  font-size: 25px;
   font-style: italic;
   color: #777;
   margin-bottom: 0.5rem;
 }
 
 .experience-item-time {
-  font-size: 1.1rem;
+  font-size: 25px;
   font-style: italic;
   color: #777;
   margin-bottom: 1rem;
 }
 
 .experience-item-description {
-  font-size: 1.1rem;
+  font-size: 20px;
   line-height: 1.5;
 }
 
-#chatbot {
+
+#chatbot{
   position: fixed;
   bottom: 20px;
   right: 20px;
   width: 300px;
   height: 400px;
   margin: 0 auto;
-  background-color: white;
+  background-color: rgb(243, 234, 235);
   border-radius: 10px;
+  color: black;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
+
 
 #chat-header {
   background-color: #3f51b5;
@@ -134,7 +164,7 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
+  
 }
 
 /* Additional styles for specific elements */
@@ -200,8 +230,8 @@ p {
 .chatbot1 summary::before {
   content: "";
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   background-image: url('chatbot.jpg');
   background-size: contain;
   margin-right: 10px;
@@ -222,4 +252,3 @@ p {
   height: 20px;
   background-image: none;
 }
-
